@@ -33,7 +33,7 @@ function update(){
         prev.disabled = true
     }
     else if(currentActive === circles.length) {
-        prev.disabled = true
+        prev.disabled = false
     }
     else {
         prev.disabled = false
