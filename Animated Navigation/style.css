@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body nav.active{
+    width: 347px;
+    transform:width 5s ease;
+}
+body{
+    height: 100vh;
+    background-color: #fff;
+    background-image:linear-gradient(
+        to bottom,
+        #eafbff 0%,
+        #eafbff 50%,
+        #5290f9 50%,
+        #5290f9 100%
+
+    );
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style:none;
+    display: flex;
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+.sticky{
+    width: 63px;
+    height: 63px;
+    background-color: white;
+    position: relative;
+    transition:width 0.7s ease;
+}
+button{
+    position: absolute;
+    top: 23px;
+    right: -4px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 53px;
+    height: 26px;
+}
+button div{
+    width: 25px;
+    height:2px;
+    background-color: #5290f9;
+}
+
+ul.active{
+    opacity: 1;
+    display:flex;
+    margin-top: 25px;
+    flex-direction: row;
+
+}
+li {
+    rotate: 0deg;
+    transition-duration: 0.7s;
+}
+li.active{
+    margin-left: 5px;
+    rotate: 1080deg;
+    transition-duration: 0.7s;
+}
+button > div {
+    margin-top: 5px;
+    transition-duration: 0.7s;
+    transform:rotate(0deg);
+}
+button.active > div{
+    transition-duration: 0.7s;
+    rotate: 1132deg;
+}
+button.active > div + div{
+    rotate: 1216deg;
+    transition-duration: 0.7s;
+}
+a{
+    text-decoration: none;
+}
