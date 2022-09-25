@@ -57,7 +57,7 @@ button div{
 ul.active{
     opacity: 1;
     display:flex;
-    margin-top: 25px;
+    padding-left: 2px;
     flex-direction: row;
 
 }
@@ -66,7 +66,7 @@ li {
     transition-duration: 0.7s;
 }
 li.active{
-    margin-left: 5px;
+    margin-left: 22px;
     rotate: 1080deg;
     transition-duration: 0.7s;
     color: black;
@@ -86,4 +86,5 @@ button.active > div + div{
 }
 a{
     text-decoration: none;
+    color: #5290f9;
 }
