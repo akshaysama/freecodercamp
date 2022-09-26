@@ -1,6 +1,4 @@
 const counterEl = document.querySelectorAll('.counter')
-
-
 counterEl.forEach((c)=>{
     c.innerText= 0
     const updateCount = ()=>{
