@@ -42,4 +42,6 @@ function fillGlass(){
     span.innerText=""}
    
 
+
+
 }
