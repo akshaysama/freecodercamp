@@ -39,7 +39,9 @@ function fillGlass(){
    if(fullGlass==totalGlass){
     small.style.visibility="hidden"
     small.style.height=0
-    span.innerText=""
-   }
+    span.innerText=""}
+   
+
+
 
 }
